@@ -52,3 +52,31 @@ nav button{
     /* margin-left: 200px; */
     display: block;
 }
+.Action-section{
+    display: flex;
+    justify-content: space-around;
+}
+.Action-title{
+    margin:100px 0px 20px 0px;
+    font-size: 42px;
+    font-weight: bold;
+    font-family:"Raleway", sans-serif ;
+    
+}
+.Action-content h5{
+    color: #252432;
+    font-weight: 400;
+    font-size: 24px;
+    font-family:"Raleway", sans-serif ;
+}
+.Action-content button{
+    font-weight: bold;
+    padding: 18px 50px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.Action-section-img img{
+    border-radius: 60px;
+}
