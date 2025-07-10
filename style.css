@@ -70,13 +70,16 @@ nav button{
     font-family:"Raleway", sans-serif ;
 }
 .Action-content button{
+    font-size: 18px;
     font-weight: bold;
     padding: 18px 50px;
     background-color: #4E47FF;
     color: white;
     border-radius: 8px;
     border: none;
+    margin-top: 18px;
 }
 .Action-section-img img{
     border-radius: 60px;
+     margin:100px 0px 20px 0px;
 }
