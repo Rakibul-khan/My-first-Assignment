@@ -40,8 +40,12 @@ nav button {
     border-radius: 8px;
     color: white;
     border: none;
+    outline: none;
     background-color: #4E47FF;
     margin: 50px 150px 0px 0px;
+}
+nav button:hover{
+    background-color: #c38344;
 }
 
 .banner-heading {
@@ -66,6 +70,9 @@ nav button {
     margin: 40px auto;
     /* margin-left: 200px; */
     display: block;
+}
+.banner-heading button:hover{
+    background-color: #c38344;
 }
 
 .Action-section {
@@ -97,6 +104,9 @@ nav button {
     border-radius: 8px;
     border: none;
     margin-top: 18px;
+}
+.Action-content button:hover{
+    background-color: #c38344;
 }
 
 .Action-section-img img {
@@ -255,6 +265,9 @@ nav button {
     border-radius: 9px;
     margin: 18px auto 0px;
 }
+.focus-section button:hover{
+    background-color: #c38344;
+}
 
 .focus-section img {
     border-radius: 50px;
@@ -339,6 +352,10 @@ textarea {
     background-color:#4E47FF;
     color: white;
 }
+#Get-in-Touch-btn:hover{
+background-color: #c38344;
+}
+
 .msglbl{
     padding-top: 15px;
     display: block;
