@@ -1,51 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-*{  box-sizing: border-box;
+
+* {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     /* background-color: #f5f8ff; */
 
 }
-body{
+
+body {
     background-color: #f5f8ff;
 }
-.banner-section{
+
+.banner-section {
     width: 100%;
     height: 698px;
     background-color: antiquewhite;
     background-image: url('Assets/Hero-bg.png');
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-nav h1{
-    
-    margin:50px 0px 0px 150px;
+
+nav h1 {
+
+    margin: 50px 0px 0px 150px;
     font-size: 34px;
     color: #4E47FF;
-    font-family:"Inter", sans-serif; 
+    font-family: "Inter", sans-serif;
 }
-nav button{
-    font-family:"Raleway", sans-serif;
+
+nav button {
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
-    padding:15px 26px;
+    padding: 15px 26px;
     border-radius: 8px;
     color: white;
     border: none;
     background-color: #4E47FF;
-    margin:50px 150px 0px 0px;
+    margin: 50px 150px 0px 0px;
 }
-.banner-heading{
+
+.banner-heading {
     font-size: 65px;
     font-weight: bold;
-    font-family:"Raleway", sans-serif ;
+    font-family: "Raleway", sans-serif;
 }
-.banner-heading h1{
+
+.banner-heading h1 {
     padding: 0px 161px;
     margin-top: 155px;
 }
-.banner-heading button{
+
+.banner-heading button {
     font-weight: bold;
     font-size: 16px;
     padding: 15px 33px;
@@ -53,28 +63,32 @@ nav button{
     background-color: #4E47FF;
     color: white;
     border: none;
-    margin:40px auto;
+    margin: 40px auto;
     /* margin-left: 200px; */
     display: block;
 }
-.Action-section{
+
+.Action-section {
     display: flex;
     justify-content: space-around;
 }
-.Action-title{
-    margin:100px 0px 20px 0px;
+
+.Action-title {
+    margin: 100px 0px 20px 0px;
     font-size: 42px;
     font-weight: bold;
-    font-family:"Raleway", sans-serif ;
-    
+    font-family: "Raleway", sans-serif;
+
 }
-.Action-content h5{
+
+.Action-content h5 {
     color: #252432;
     font-weight: 400;
     font-size: 24px;
-    font-family:"Raleway", sans-serif ;
+    font-family: "Raleway", sans-serif;
 }
-.Action-content button{
+
+.Action-content button {
     font-size: 18px;
     font-weight: bold;
     padding: 18px 50px;
@@ -84,45 +98,53 @@ nav button{
     border: none;
     margin-top: 18px;
 }
-.Action-section-img img{
+
+.Action-section-img img {
     border-radius: 60px;
-     margin:100px 0px 20px 0px;
+    margin: 100px 0px 20px 0px;
 }
-.Productive-users-section{
+
+.Productive-users-section {
     border-radius: 20px;
     margin: auto;
     height: 310px;
     width: 1205px;
     background-color: #e5e7ff;
-    
+
 }
-.Productive-users-section h3{
+
+.Productive-users-section h3 {
     font-weight: bold;
     font-size: 38px;
-    color:#252432 ;
-     font-family:"Raleway", sans-serif;
-     text-align: center;
-     margin:51px 0px;
-     padding-top: 35px;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin: 51px 0px;
+    padding-top: 35px;
 }
-.Users{
+
+.Users {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
 }
-.Users h1{
+
+.Users h1 {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
-    font-family:"Inter", sans-serif;  ;
+    font-family: "Inter", sans-serif;
+    ;
 }
-.Users span{
+
+.Users span {
     margin-left: 10px;
     font-size: 20px;
     text-align: center;
     font-family: "Inter", sans-serif;
 }
+
 .users-container {
     font-family: "Inter", sans-serif;
     display: flex;
@@ -132,62 +154,107 @@ nav button{
     padding: 20px;
     gap: 20px;
     border-radius: 15px;
-    }
+}
 
-.users-container h3{
+.users-container h3 {
     margin-bottom: 10px;
 
 }
-.user-review-title{
+
+.user-review-title {
     margin: 120px 0px 20px 0px;
     text-align: center;
     font-size: 42px;
     font-weight: bold;
-   font-family:"Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
-.first-user{
+
+.first-user {
     box-shadow: 1px 2px 2px gray;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
 }
-.first-user img{
+
+.first-user img {
     margin-bottom: 19px;
 }
-.second-user img{
+
+.second-user img {
     margin-bottom: 19px;
 }
-.third-user img{
+
+.third-user img {
     margin-bottom: 19px;
 }
-.second-user{
+
+.second-user {
     box-shadow: 1px 2px 2px gray;
-     background-color: white;
+    background-color: white;
     padding: 20px;
     border-radius: 20px;
 }
-.third-user{
-     background-color: white;
+
+.third-user {
+    background-color: white;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 1px 2px 2px gray;
 }
 
-.users-container img{
+.users-container img {
     margin-top: 28px;
 }
-.users-container h5{
+
+.users-container h5 {
     margin-top: 30px;
 }
 
-.footer-review{
+.footer-review {
     display: flex;
-    
+
 }
-.footer-review img{
+
+.footer-review img {
     border-radius: 50%;
     margin-right: 15px;
 }
-.focus-section{
-    
+
+.focus-section {
+      font-family: "Raleway", sans-serif;
+    width: 1205px;
+    background-color: white;
+    margin:100px auto 0px;
+    border-radius: 10px;
+    height: 92vh;
+
+}
+
+.focus-section h1 {
+    padding-top: 80px;
+    margin: 20px 0px 15px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+.focus-section p{
+    color: #7f7f7f;
+    font-size: 18px;
+    text-align: center;
+}
+.focus-section button{
+    display: block;
+    background-color: #4E47FF;
+    color: white;
+    padding:20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 9px;
+    margin:18px auto 0px;
+}
+.focus-section img{
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 40px;
 }
