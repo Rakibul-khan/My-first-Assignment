@@ -221,10 +221,10 @@ nav button {
 }
 
 .focus-section {
-      font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 1205px;
     background-color: white;
-    margin:100px auto 0px;
+    margin: 100px auto 0px;
     border-radius: 10px;
     height: 92vh;
 
@@ -238,23 +238,145 @@ nav button {
     font-weight: bold;
     font-family: "Raleway", sans-serif;
 }
-.focus-section p{
+
+.focus-section p {
     color: #7f7f7f;
     font-size: 18px;
     text-align: center;
 }
-.focus-section button{
+
+.focus-section button {
     display: block;
     background-color: #4E47FF;
     color: white;
-    padding:20px 40px;
+    padding: 20px 40px;
     font-size: 18px;
     border: none;
     border-radius: 9px;
-    margin:18px auto 0px;
+    margin: 18px auto 0px;
 }
-.focus-section img{
+
+.focus-section img {
     border-radius: 50px;
     margin-left: 200px;
     margin-top: 40px;
+}
+
+.get-in-touch {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    height: 65vh;
+    align-items: center;
+}
+
+.get-in-touch-left h1 {
+    width: 817px;
+    font-size: 97px;
+    font-weight: bold;
+    /* padding: 106px 60px; */
+    margin-left: 150px;
+
+}
+
+.get-in-touch label,
+textarea {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#Name {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    display: block;
+    display: block;
+    height: 56px;
+    width: 322px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+#Email {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    display: block;
+    display: block;
+    height: 56px;
+    width: 322px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#Message {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    height: 80px;
+    width: 322px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#Get-in-Touch-btn{
+    display: block;
+     font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 110px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color:#4E47FF;
+    color: white;
+}
+.msglbl{
+    padding-top: 15px;
+    display: block;
+}
+footer{
+
+    background-color: white;
+    height: 50vh;
+     font-family: "Inter", sans-serif;
+}
+.footer-section{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h1{
+     font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color:#4E47FF;
+    margin-left:590px;
+}
+footer p{
+    color: #8987A1;
+    padding: 5px 496px;
+}
+footer ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    padding:0px 15px
+}
+footer ul li a{
+    text-decoration: none;
+    color: #8987A1;
 }
